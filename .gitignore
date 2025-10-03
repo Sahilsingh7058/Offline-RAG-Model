@@ -1,0 +1,43 @@
+Git Ignore File for OfflineGenie Project
+Python Backend
+Ignore the virtual environment folder, which contains large libraries
+/backend/venv/
+
+Ignore Python cache files
+/backend/pycache/
+*.pyc
+
+Ignore local data folders that will be generated at runtime
+/backend/uploaded_files/
+/backend/vector_db/
+
+React Frontend
+Ignore the massive node_modules folder
+/frontend/node_modules/
+/node_modules/
+
+Ignore the production build folder
+/frontend/build/
+/build/
+
+Ignore testing coverage reports
+/coverage/
+
+Common Node.js/npm/Yarn files
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+Misc & Environment Files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+venv/
+backend/venv/
+*.dll
+*.lib
