@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Use Inter as the default sans-serif font */
+.font-sans {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Use Playfair Display as the serif font */
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
